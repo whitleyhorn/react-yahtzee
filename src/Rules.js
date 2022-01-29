@@ -78,6 +78,7 @@ class LargeStraight extends Rule {
   };
 }
 
+
 /** Check if all dice are same. */
 
 class Yahtzee extends Rule {
