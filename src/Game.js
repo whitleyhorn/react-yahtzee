@@ -32,6 +32,12 @@ class Game extends Component {
     this.roll = this.roll.bind(this);
     this.doScore = this.doScore.bind(this);
     this.toggleLocked = this.toggleLocked.bind(this);
+
+  }
+
+
+  componentDidMount() {
+      this.roll();
   }
 
   roll(evt) {
